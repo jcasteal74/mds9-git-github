@@ -89,42 +89,10 @@ git config --global user.email "tuemail@example.com"
    git push -u origin main
    ```
 
-## 🔍 Esquema Visual del Flujo de Trabajo con Ramas Locales y Remotas
+## 🔍 Esquema Visual del Flujo de Trabajo con Ramas Locales y Remotas  
 
-```plaintext
-                       [ REMOTO: GitHub ]
-                              |
-                              ▼
-               +----------------------------+
-               |        Repositorio          |
-               |  (origin/main, otras ramas) |
-               +----------------------------+
-                        ▲         ▲
-                        |         |
-                git push|         | git pull
-                        |         |
-                        ▼         ▼
-               +----------------------------+
-               |        LOCAL: Git          |
-               |      (Tu máquina)          |
-               +----------------------------+
-                    ▲             ▲
-                    |             |
-         git commit |             | git fetch
-                    ▼             ▼
-               +----------------------------+
-               |  Área de preparación (staging)  |
-               +----------------------------+
-                        ▲
-                        |
-                   git add
-                        |
-                        ▼
-               +----------------------------+
-               |  Directorio de trabajo     |
-               |  (Archivos locales)        |
-               +----------------------------+
-```
+![Flujo de trabajo](./images/git-github.png)
+
 
 ## 📚 Recursos Adicionales
 - [Documentación oficial de Git](https://git-scm.com/doc)
