@@ -70,10 +70,12 @@ git config --global user.email "tuemail@example.com"
 | `git clone <url>` | Clona un repositorio remoto |
 | `git status` | Muestra el estado de los archivos |
 | `git add <archivo>` | Agrega un archivo al área de staging |
-| `git commit -m "mensaje"` | Guarda los cambios con un mensaje |
+| `git commit -m "mensaje"` | Guarda los cambios con un mensaje |  
+| `git fetch` | Descarga los últimos cambios del repo remoto sin fusionarlos automáticamente con tu rama local |  
 | `git push origin main` | Sube los cambios al repositorio remoto |
 | `git pull origin main` | Descarga los cambios del repositorio remoto |
 | `git branch` | Lista las ramas disponibles |
+| `git branch -r` | Lista las ramas remotas disponibles |
 | `git checkout -b <rama>` | Crea y cambia a una nueva rama |
 | `git merge <rama>` | Fusiona una rama con otra |
 
