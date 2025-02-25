@@ -94,6 +94,11 @@ git config --global user.email "tuemail@example.com"
 ![Flujo de trabajo](./images/git-github.png)
 
 
+## 🔍 Esquema Visual del Flujo de Trabajo en equipo
+
+![Trabajo en equipo](./images/git_grupo.jpg)
+
+
 ## 📚 Recursos Adicionales
 - [Documentación oficial de Git](https://git-scm.com/doc)
 - [Guía de GitHub](https://docs.github.com/)
@@ -105,5 +110,5 @@ git config --global user.email "tuemail@example.com"
 
 ---
 📌 **Autor:** Juan Castellanos y la ChAtI.  
-📅 **Última actualización:** _(20250222)_
+📅 **Última actualización:** _(20250225)_
 
